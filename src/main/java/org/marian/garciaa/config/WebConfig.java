@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer{
 	public void addResourceHandlers(
             ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/logos/**").
-        addResourceLocations("file:img-vacantes");
+        addResourceLocations("file:/empleos/img-vacantes/");
     }
 
 }
